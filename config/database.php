@@ -2,9 +2,9 @@
 ob_start();
 error_reporting(E_ERROR);
 ini_set('display_errors', 0);
-$servername = "127.0.0.1";
-$dbusername = "root";
-$dbpassword = "_G-gfJgPiif/@/h4";
+$servername = "sql5.freesqldatabase.com";
+$dbusername = "sql5838007";
+$dbpassword = "3bzhjZetED";
 try {
 $con = new PDO("mysql:host=$servername;dbname=limbodb;charset=utf8mb4", $dbusername, $dbpassword);
 $con->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
